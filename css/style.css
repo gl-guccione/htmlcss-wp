@@ -113,8 +113,10 @@ aside.col-1 > div.mini-title {
 aside.col-1 > div.mini-title > span{
   float: left;
   display: inline-block;
-  padding-left: 10px;
+  color: #504741;
   font-size: 23px;
+  font-weight: 300;
+  padding-left: 10px;
 }
 
 aside.col-1 i.fa-rss-square{
@@ -127,14 +129,24 @@ aside.col-1 > ul > li {
   padding: 8px 6px;
   cursor: pointer;
   list-style: none;
+  font-weight: 300;
   color: green;
 }
 
 main > div.col-2 {
-  background-color: #730671;
+  background-color: #fff;
+  border-radius: 10px;
   width: 50%;
-  height: 500px;
+  /* height: 500px; */
+  padding: 15px;
   margin: 0 40px;
+}
+
+div.col-2 > h2 {
+  margin-bottom: 40px;
+  color: #504741;
+  text-shadow: 1px 1px 2px #504741;
+  font-weight: 300;
 }
 
 main > aside {
