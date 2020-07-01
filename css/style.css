@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 15px;
+}
+
+header {
+  background-color: #FEFE3A;
+  height: 200px;
+}
+
+main {
+  margin: 12px 0;
+}
+
+main > * {
+  float: left;
+}
+
+main::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+main > aside.col-1 {
+  background-color: #CC87DA;
+  height: 400px;
+}
+
+main > div.col-2 {
+  background-color: #730671;
+  width: 40%;
+  height: 500px;
+  margin: 0 12px;
+}
+
+main > aside {
+  width: calc(30% - 12px);
+}
+
+main > aside.col-3 > div {
+  background-color: #CC87DA;
+  height: 210px;
+  margin-bottom: 12px;
+}
+
+footer {
+  background-color: #A4D2E1;
+  height: 150px
+}
