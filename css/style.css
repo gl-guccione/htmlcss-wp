@@ -21,7 +21,7 @@ header {
 
 #header-top > i.fa-mountain {
   position: absolute;
-  top: 15px;
+  top: 40px;
   left: 50%;
   transform: translate(-50%, 0);
   font-size: 40px;
@@ -33,7 +33,7 @@ header {
   background-size: cover;
   background-position: center;
   border: 10px solid #fff;
-  height: 230px;
+  height: 280px;
   color: #fff;
 }
 
